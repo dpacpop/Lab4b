@@ -5,10 +5,8 @@ void even(int a, int b)
 	if(a==b)
 	{
 		if(a%2==0)
-		{
-			cout<<a;
-			return;
-		}
+		cout<<a;
+		return;
 	}
 	else
 	{
@@ -23,10 +21,8 @@ void odd(int a,int b)
 	if(a==b)
 	{
 		if(a%2!=0)
-		{
-			cout<<a;
-			return;
-		}
+		cout<<a;
+		return;
 	}
 	else
 	{
